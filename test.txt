@@ -9,4 +9,9 @@ start .  : その場所をエクスプローラーで開くコマンド
   つまり、ファイル変更 --> staging(add) --> commit
 
   git add [ファイル名をパスで]        *配下すべてを対象にする場合--> git add .
-  git commit -m "message in Eng"     
+  git commit -m "message in Eng"
+
+
+[ブランチを作る]   master(元ファイル)から別の世界線を歩むため、分枝させること
+  git branch [命名]
+  git checkout [branchした名前]
