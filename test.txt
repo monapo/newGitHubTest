@@ -9,3 +9,4 @@ start .  : その場所をエクスプローラーで開くコマンド
   つまり、ファイル変更 --> staging(add) --> commit
 
   git add [ファイル名をパスで]        *配下すべてを対象にする場合--> git add .
+  git commit -m "message in Eng"     
